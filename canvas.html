@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .canvas canvas{ border:#c00 solid 1px;position: relative;z-index:10}
+        .canvas{ position: relative;top:0;left:0;text-align:center}
+        .canvas img{ position: absolute;top:0;left:50%;z-index:1;transform: translateX(-50%);}
+    </style>
+</head>
+<body>
+   <div class="canvas"></div>
+</body>
+<script src="canvas.js"></script>
+<script>
+    M(".canvas").create({
+         src:"IMG_0663.JPG"
+    })
+</script>
+</html>
